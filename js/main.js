@@ -169,8 +169,8 @@ while (balls.length < 25) {
 }
 
 const evilCircle = new EvilCircle(
-  random(10, width - 10),
-  random(10, height - 10)
+  random(0, width),
+  random(0, height)
 );
 
 function loop() {
